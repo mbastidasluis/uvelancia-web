@@ -9,7 +9,7 @@ export default function Footer() {
 
                 <div>
                     <a href="https://www.instagram.com/uvelancia_2021/" target="_blank">
-                        <img src="/img/instagram.svg" className="w-14 h-14" />
+                        <img src="https://zqydgybqkwwurtdngkjc.supabase.in/storage/v1/object/sign/storage/images/instagram.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzdG9yYWdlL2ltYWdlcy9pbnN0YWdyYW0uc3ZnIiwiaWF0IjoxNjM4ODA3MzQ0LCJleHAiOjE5NTQxNjczNDR9.zHa9p5HSwAfXt9AT7A-pMjnBZPct81LU_fmQpeitfM8" className="w-14 h-14" />
                         </a>
                         </div>
             </div>

@@ -20,7 +20,7 @@ export default function Nav() {
                 {/* <!-- left elements --> */}
                 <div className="flex items-center ml-10">
                     {/* <!-- logo --> */}
-                    <img src="/logo.png" className="h-12 w-12 my-2" />
+                    <img src="https://zqydgybqkwwurtdngkjc.supabase.in/storage/v1/object/sign/storage/images/logo.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzdG9yYWdlL2ltYWdlcy9sb2dvLnBuZyIsImlhdCI6MTYzODgwNzk5NSwiZXhwIjoxOTU0MTY3OTk1fQ.u_Abttb4n0KcMTn0ydozRE2qDcJj51jBi9doEdjG1DI" className="h-12 w-12 my-2" />
 
 
                     {/* <!-- name --> */}
@@ -74,7 +74,7 @@ export default function Nav() {
             <div className="md:hidden fixed top-0 z-20 bg-gray-100 w-screen shadow-lg flex flex-col justify-center">
                 <Menu>
                     <Menu.Button className="flex flex-col justify-center items-center">
-                        <img src="/logo.png" className="h-12 w-12" />
+                        <img src="https://zqydgybqkwwurtdngkjc.supabase.in/storage/v1/object/sign/storage/images/logo.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzdG9yYWdlL2ltYWdlcy9sb2dvLnBuZyIsImlhdCI6MTYzODgwNzk5NSwiZXhwIjoxOTU0MTY3OTk1fQ.u_Abttb4n0KcMTn0ydozRE2qDcJj51jBi9doEdjG1DI" className="h-12 w-12" />
                         <DotsHorizontalIcon
                             className="w-5 h-5 mx-auto"
                             aria-hidden="true"
