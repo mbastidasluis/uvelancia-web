@@ -18,9 +18,9 @@ export default function Home() {
         <div>
           <HeroSection />
           <Features />
+      <Footer />
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

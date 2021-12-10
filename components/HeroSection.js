@@ -3,12 +3,12 @@ import ContactButton from './ContactButton'
 
 export default function HeroSection() {
   return (
-    <div className="bg-green-100 overflow-hidden px-4 md:px-6 lg:px-8 xl:px-0 h-screen">
+    <div className="bg-ocean-100 overflow-hidden px-4 md:px-6 lg:px-8 xl:px-0 h-screen">
       <div className="relative max-w-screen-xl mx-auto flex flex-col items-center lg:items-baseline justify-center h-full space-y-20 md:space-y-0">
         <div className="max-w-7xl mx-auto lg:mx-0">
-          <div className="relative lg:pl-8 z-10 bg-green-100 lg:bg-white lg:max-w-2xl lg:w-full lg:pb-28 lg:ml-0 xl:pb-32">
+          <div className="relative lg:pl-8 z-10 bg-ocean-100 lg:bg-white lg:max-w-2xl lg:w-full lg:pb-28 lg:ml-0 xl:pb-32">
             <svg
-              className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-green-100 lg:text-white transform translate-x-1/2"
+              className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-ocean-100 lg:text-white transform translate-x-1/2"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
@@ -20,9 +20,9 @@ export default function HeroSection() {
 
             <main className="sm:mt-36 md:mt-60 lg:my-auto max-w-6xl px-4">
               <div className="sm:text-center lg:text-left pt-10">
-                <h1 className="text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl xl:py-8">
+                <h1 className="text-4xl tracking-tight font-extrabold text-ocean-900 sm:text-5xl md:text-6xl xl:py-8">
                   <span className="block my-8">Llegamos a donde estés</span>{' '}
-                  <span className="block text-green-600 my-8">Te llevamos a donde necesites</span>
+                  <span className="block text-ocean-600 my-8">Te llevamos a donde necesites</span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 relative z-20">
                   Las emergencias médicas  y accidentes graves no avisan. Con üvelancia estas a un clik de tener un traslado en ambulancia de forma inmediata.

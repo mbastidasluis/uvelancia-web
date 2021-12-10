@@ -24,9 +24,9 @@ export default function Features() {
         },
     ]
     return (
-        <div className="bg-white overflow-hidden w-screen px-4 md:px-6 lg:px-8 xl:px-0 h-screen">
+        <div className="bg-white overflow-hidden w-screen px-4 md:px-6 lg:px-8 xl:px-0 min-h-full">
             <div id="features"  className="flex items-center justify-center">
-                <h1 className="font-bold mt-8 text-2xl text-green-700">Características</h1>
+                <h1 className="font-bold mt-8 text-2xl text-ocean-600">Características</h1>
                 </div>
             <div className="max-w-screen-xl mx-auto text-center grid gap-10 py-10 lg:grid-cols-2 items-center text-gray-800 font-semibold min-h-screen">
                 {features.map((feature, i) =>

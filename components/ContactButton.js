@@ -15,7 +15,7 @@ export default function ContactButton({ name }) {
 
     return (
         <>
-            <div className="my-3 py-2 px-4 bg-green-600 w-40 mx-auto text-white hover:bg-green-500 rounded transition duration-150 ease-in-out  shadow hover:shadow-lg"
+            <div className="my-3 py-2 px-4 bg-ocean-500 w-40 mx-auto text-white hover:bg-ocean-400 rounded transition duration-150 ease-in-out  shadow hover:shadow-lg"
             >
                 <button
                     type="button"
@@ -72,13 +72,13 @@ export default function ContactButton({ name }) {
                                     />
                                     <button
                                         type="button"
-                                        className=" absolute top-0 right-0 justify-center p-2 text-sm text-green-600 bg-gray-200 border border-transparent rounded-md hover:bg-green-600 hover:text-white shadow hover:shadow-lg"
+                                        className=" absolute top-0 right-0 justify-center p-2 text-sm text-ocean-600 bg-gray-200 border border-transparent rounded-md hover:bg-ocean-600 hover:text-white shadow hover:shadow-lg"
                                         onClick={closeModal}
                                     >
                                         <XIcon className="w-6 h-6" />
                                     </button>
                                 </Dialog.Title>
-                                <div className="mt-2 text-2xl font-medium text-green-800">
+                                <div className="mt-2 text-2xl font-medium text-ocean-800">
                                     <div>
                                         <div className="flex items-center space-x-4 my-4">
                                             <PhoneIcon className="w-6 h-6" />

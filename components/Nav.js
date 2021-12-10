@@ -26,16 +26,16 @@ export default function Nav() {
                                 </a>
                                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                                     {navigation.map((item) => (
-                                        <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-green-700 border-gray-100 hover:border-green-600 border-2 px-4 py-2 rounded-md">
+                                        <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-ocean-700 border-gray-100 hover:border-ocean-600 border-2 px-4 py-2 rounded-md">
                                             {item.name}
                                         </a>
                                     ))}
-                                    {/* <a href="#" className="font-medium text-green-600 hover:text-green-500">
+                                    {/* <a href="#" className="font-medium text-ocean-600 hover:text-ocean-500">
                                         Log in
                                     </a> */}
                                 </div>
                                 <div className="mr-4 flex items-center md:hidden fixed right-0">
-                                    <Popover.Button className="bg-gray-100 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
+                                    <Popover.Button className="bg-gray-100 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-ocean-500">
                                         <span className="sr-only">Open main menu</span>
                                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
                                     </Popover.Button>
@@ -69,7 +69,7 @@ export default function Nav() {
                                     />
                                 </div>
                                 <div className="-mr-2">
-                                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
+                                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-ocean-500">
                                         <span className="sr-only">Close main menu</span>
                                         <XIcon className="h-6 w-6" aria-hidden="true" />
                                     </Popover.Button>
@@ -80,7 +80,7 @@ export default function Nav() {
                                     <a
                                         key={item.name}
                                         href={item.href}
-                                        className="block font-medium text-gray-500 hover:bg-gray-200  hover:text-green-700 px-4 py-2 rounded-md"
+                                        className="block font-medium text-gray-500 hover:bg-gray-200  hover:text-ocean-700 px-4 py-2 rounded-md"
                                     >
                                         {item.name}
                                     </a>
@@ -88,7 +88,7 @@ export default function Nav() {
                             </div>
                             {/* <a
                                 href="#"
-                                className="block w-full px-5 py-3 text-center font-medium text-green-600 bg-gray-50 hover:bg-gray-100"
+                                className="block w-full px-5 py-3 text-center font-medium text-ocean-600 bg-gray-50 hover:bg-gray-100"
                             >
                                 Log in
                             </a> */}
