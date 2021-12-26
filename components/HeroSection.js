@@ -3,7 +3,7 @@ import ContactButton from './ContactButton'
 
 export default function HeroSection() {
   return (
-    <div className="bg-ocean-100 overflow-hidden px-4 md:px-6 lg:px-8 xl:px-0 h-screen">
+    <div className="bg-ocean-100 overflow-hidden px-4 md:px-6 lg:px-8 xl:px-0 min-h-max">
       <div className="relative max-w-screen-xl mx-auto flex flex-col items-center lg:items-baseline justify-center h-full space-y-20 md:space-y-0">
         <div className="max-w-7xl mx-auto lg:mx-0">
           <div className="relative lg:pl-8 z-10 bg-ocean-100 lg:bg-white lg:max-w-2xl lg:w-full lg:pb-28 lg:ml-0 xl:pb-32">
@@ -18,7 +18,7 @@ export default function HeroSection() {
             </svg>
 
 
-            <main className="sm:mt-36 md:mt-60 lg:my-auto max-w-6xl px-4">
+            <main className="lg:my-auto max-w-6xl px-4">
               <div className="sm:text-center lg:text-left pt-10">
                 <h1 className="text-4xl tracking-tight font-extrabold text-ocean-900 sm:text-5xl md:text-6xl xl:py-8">
                   <span className="block my-8">Llegamos a donde estés</span>{' '}

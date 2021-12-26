@@ -1,6 +1,7 @@
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import { Fragment } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
+import { useScrollData } from "scroll-data-hook";
 
 export default function Nav() {
     const navigation = [
@@ -8,10 +9,10 @@ export default function Nav() {
         { name: 'Ventajas', href: '#features' },
         { name: 'Conócenos', href: '#social-media' },
     ]
+    const { position } = useScrollData()
 
     return (
-        <div className="fixed top-0 z-50 bg-gray-100 w-full">
-
+        <div className={`${position.y > 150 ? 'fixed top-0' : ''} z-50 bg-gray-100 w-full`}>
             <Popover>
                 <div className="relative flex items-center py-4  px-10 shadow-lg">
                     <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
@@ -42,7 +43,6 @@ export default function Nav() {
                                 </div>
                             </div>
                         </div>
-
                     </nav>
                 </div>
 

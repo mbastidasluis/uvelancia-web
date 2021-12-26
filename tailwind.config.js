@@ -3,7 +3,6 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-
     fontFamily: { 'body': ['Montserrat'] },
     extend: {
       colors: {
@@ -47,6 +46,7 @@ module.exports = {
       '3/4': '75vh',
       '9/10': '90vh',
       'full': '100vh',
+      'max': 'max-content'
     }
   },
   variants: {
