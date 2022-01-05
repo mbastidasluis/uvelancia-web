@@ -4,6 +4,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import Features from '../components/features/Features'
+import SocialResponsability from '../components/SocialResponsability'
 
 export default function Home() {
 
@@ -15,11 +16,10 @@ export default function Home() {
       </Head>
       <Nav />
       <div>
-        <div>
-          <HeroSection />
-          <Features />
-      <Footer />
-        </div>
+        <HeroSection />
+        <Features />
+        <SocialResponsability />
+        <Footer />
       </div>
     </div>
   )
