@@ -78,7 +78,7 @@ export default function ContactButton({ name }) {
                                         <XIcon className="w-6 h-6" />
                                     </button>
                                 </Dialog.Title>
-                                <div className="mt-2 text-2xl font-medium text-ocean-800">
+                                <div className="mt-2 text-xl md:text-2xl font-medium text-ocean-800">
                                     <div>
                                         <div className="flex items-center space-x-4 my-4">
                                             <PhoneIcon className="w-6 h-6" />
